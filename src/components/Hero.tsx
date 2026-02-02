@@ -60,7 +60,7 @@ const Hero = () => {
           }}>
               <Shield className="w-10 h-10 text-accent mb-4" />
               <div className="font-serif text-3xl font-bold text-cream mb-2">₹5000Cr+</div>
-              <div className="font-sans text-sm text-cream/70">Deals Structured</div>
+              <div className="font-sans text-sm text-cream/70">100+</div>
             </div>
             
             <div className="bg-card/10 backdrop-blur-sm rounded-xl p-6 border border-cream/10 animate-fade-in" style={{
