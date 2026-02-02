@@ -51,7 +51,7 @@ const Hero = () => {
             animationDelay: "0.2s"
           }}>
               <TrendingUp className="w-10 h-10 text-accent mb-4" />
-              <div className="font-serif text-3xl font-bold text-cream mb-2">20+</div>
+              <div className="font-serif text-3xl font-bold text-cream mb-2">Deals Structured</div>
               <div className="font-sans text-sm text-cream/70">Years of Expertise</div>
             </div>
             
