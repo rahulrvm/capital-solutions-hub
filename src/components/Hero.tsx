@@ -77,7 +77,10 @@ const Hero = () => {
               <div className="font-serif text-3xl font-bold text-accent mb-2">
             </div>
               <div className="font-sans text-sm text-cream/70">Expert Partners</div>
-              <div className="mt-3 text-xs text-cream/50 font-sans">100+ Structured Debt</div>
+              <div className="mt-3 text-xs text-cream/50 font-sans">100+ 
+
+
+Structured</div>
             </div>
           </div>
         </div>
