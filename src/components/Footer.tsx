@@ -1,13 +1,11 @@
 import logo from "@/assets/logo.png";
-
 const Footer = () => {
-  return (
-    <footer className="bg-primary py-12">
+  return <footer className="bg-primary py-12">
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-4 gap-8 mb-10">
           {/* Brand */}
           <div className="md:col-span-2">
-            <img src={logo} alt="Vaibhavam Capital Advisory" className="h-16 w-auto mb-4 brightness-0 invert opacity-90" />
+            <img src={logo} alt="Vaibhavam Capital Advisory" className="h-16 w-auto mb-4 brightness-0 invert opacity-100" />
             <p className="font-sans text-cream/70 text-sm leading-relaxed max-w-md">
               A boutique financial advisory firm specialising in debt syndication, 
               financial restructuring, and strategic capital solutions for businesses 
@@ -19,16 +17,11 @@ const Footer = () => {
           <div>
             <h4 className="font-serif text-lg font-semibold text-cream mb-4">Quick Links</h4>
             <ul className="space-y-2">
-              {["About", "Services", "Why Us", "Contact"].map((link) => (
-                <li key={link}>
-                  <a
-                    href={`#${link.toLowerCase().replace(" ", "-")}`}
-                    className="font-sans text-sm text-cream/70 hover:text-accent transition-colors"
-                  >
+              {["About", "Services", "Why Us", "Contact"].map(link => <li key={link}>
+                  <a href={`#${link.toLowerCase().replace(" ", "-")}`} className="font-sans text-sm text-cream/70 hover:text-accent transition-colors">
                     {link}
                   </a>
-                </li>
-              ))}
+                </li>)}
             </ul>
           </div>
 
@@ -36,21 +29,11 @@ const Footer = () => {
           <div>
             <h4 className="font-serif text-lg font-semibold text-cream mb-4">Services</h4>
             <ul className="space-y-2">
-              {[
-                "Debt Syndication",
-                "Working Capital",
-                "PE Advisory",
-                "Project Finance"
-              ].map((service) => (
-                <li key={service}>
-                  <a
-                    href="#services"
-                    className="font-sans text-sm text-cream/70 hover:text-accent transition-colors"
-                  >
+              {["Debt Syndication", "Working Capital", "PE Advisory", "Project Finance"].map(service => <li key={service}>
+                  <a href="#services" className="font-sans text-sm text-cream/70 hover:text-accent transition-colors">
                     {service}
                   </a>
-                </li>
-              ))}
+                </li>)}
             </ul>
           </div>
         </div>
@@ -72,8 +55,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
