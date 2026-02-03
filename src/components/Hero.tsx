@@ -52,7 +52,7 @@ const Hero = () => {
           }}>
               <Users className="w-10 h-10 text-accent mb-4" />
               <div className="font-serif text-3xl font-bold text-cream mb-2">4 Expert Partners</div>
-              <div className="font-sans text-sm text-cream/70">seasoned banking professionals </div>
+              <div className="font-sans text-sm text-cream/70">Seasoned Banking Professionals</div>
             </div>
             
             <div className="bg-card/10 backdrop-blur-sm rounded-xl p-6 border border-cream/10 animate-fade-in" style={{
@@ -77,7 +77,7 @@ const Hero = () => {
               <div className="font-serif text-3xl font-bold text-accent mb-2">
             </div>
               <div className="font-sans text-sm text-cream/70">Expert Partners</div>
-              <div className="mt-3 text-xs text-cream/50 font-sans">100+ Structured Debt </div>
+              <div className="mt-3 text-xs text-cream/50 font-sans">100+ Structured Debt</div>
             </div>
           </div>
         </div>
