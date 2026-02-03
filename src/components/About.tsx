@@ -1,8 +1,6 @@
 import { Eye, Target, Users } from "lucide-react";
-
 const About = () => {
-  return (
-    <section id="about" className="py-20 bg-background">
+  return <section id="about" className="py-20 bg-background">
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16 animate-fade-in">
@@ -12,26 +10,19 @@ const About = () => {
           <h2 className="font-serif text-3xl md:text-4xl font-bold text-foreground mb-6">
             Two Decades of Financial Excellence
           </h2>
-          <p className="font-sans text-muted-foreground leading-relaxed">
-            Vaibhavam Capital Advisory is a boutique financial advisory firm led by seasoned 
-            banking professionals with over two decades of experience in the Indian and 
-            international banking landscape.
-          </p>
+          <p className="font-sans text-muted-foreground leading-relaxed">Vaibhavam Capital Advisory is a boutique financial advisory firm led by seasoned banking professional with over two decades of experience in the Indian and international banking landscape.</p>
         </div>
 
         {/* Main Content */}
         <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
           {/* Left - Description */}
-          <div className="animate-fade-in" style={{ animationDelay: "0.2s" }}>
+          <div className="animate-fade-in" style={{
+          animationDelay: "0.2s"
+        }}>
             <h3 className="font-serif text-2xl font-bold text-foreground mb-4">
               Beyond Standard Banking Products
             </h3>
-            <p className="font-sans text-muted-foreground mb-6 leading-relaxed">
-              Our core expertise lies in debt syndication, financial restructuring advisory, 
-              and Private Equity advisory, offering end-to-end financial structuring, 
-              fundraising solutions, and strategic advisory to corporates, SMEs, and 
-              infrastructure developers.
-            </p>
+            <p className="font-sans text-muted-foreground mb-6 leading-relaxed">Our core expertise lies in debt syndication, financial restructuring advisory, and Private Equity advisory, offering end-to-end financial structuring, fundraising solutions, and strategic advisory to corporates, SMEs, and MSMEs.</p>
             <p className="font-sans text-muted-foreground leading-relaxed">
               At Vaibhavam Capital Advisory, we focus on customised liquidity, balance-sheet 
               optimisation, and structured capital solutions, rather than off-the-shelf 
@@ -41,7 +32,9 @@ const About = () => {
 
           {/* Right - Vision & Mission Cards */}
           <div className="space-y-6">
-            <div className="bg-card rounded-xl p-6 shadow-card border border-border animate-slide-in-right" style={{ animationDelay: "0.3s" }}>
+            <div className="bg-card rounded-xl p-6 shadow-card border border-border animate-slide-in-right" style={{
+            animationDelay: "0.3s"
+          }}>
               <div className="flex items-start gap-4">
                 <div className="p-3 bg-accent/10 rounded-lg">
                   <Eye className="w-6 h-6 text-accent" />
@@ -56,7 +49,9 @@ const About = () => {
               </div>
             </div>
 
-            <div className="bg-card rounded-xl p-6 shadow-card border border-border animate-slide-in-right" style={{ animationDelay: "0.4s" }}>
+            <div className="bg-card rounded-xl p-6 shadow-card border border-border animate-slide-in-right" style={{
+            animationDelay: "0.4s"
+          }}>
               <div className="flex items-start gap-4">
                 <div className="p-3 bg-primary/10 rounded-lg">
                   <Target className="w-6 h-6 text-primary" />
@@ -74,7 +69,9 @@ const About = () => {
         </div>
 
         {/* Team Section */}
-        <div className="bg-primary rounded-2xl p-8 md:p-12 animate-fade-in" style={{ animationDelay: "0.5s" }}>
+        <div className="bg-primary rounded-2xl p-8 md:p-12 animate-fade-in" style={{
+        animationDelay: "0.5s"
+      }}>
           <div className="flex flex-col md:flex-row items-center gap-8">
             <div className="p-4 bg-accent/20 rounded-xl">
               <Users className="w-12 h-12 text-accent" />
@@ -93,8 +90,6 @@ const About = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default About;
