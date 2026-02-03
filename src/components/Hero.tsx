@@ -74,10 +74,10 @@ const Hero = () => {
             <div className="bg-accent/20 backdrop-blur-sm rounded-xl p-6 border border-accent/30 animate-fade-in" style={{
             animationDelay: "0.5s"
           }}>
-              <div className="font-serif text-3xl font-bold text-accent mb-2">
-            </div>
-              <div className="font-sans text-sm text-cream/70">Expert Partners</div>
-              <div className="mt-3 text-xs text-cream/50 font-sans"></div>
+              <Users className="w-10 h-10 text-accent mb-4" />
+              <div className="font-serif text-3xl font-bold text-accent mb-2">100+</div>
+              <div className="font-sans text-sm text-cream/70">Deals Structured</div>
+              <div className="mt-3 text-xs text-cream/50 font-sans">Expert Partners</div>
             </div>
           </div>
         </div>
