@@ -67,7 +67,7 @@ const Hero = () => {
             animationDelay: "0.4s"
           }}>
               <Target className="w-10 h-10 text-accent mb-4" />
-              <div className="font-serif text-3xl font-bold text-cream mb-2">350+</div>
+              <div className="font-serif text-3xl font-bold text-cream mb-2">500+</div>
               <div className="font-sans text-sm text-cream/70">SME/Mid/Large Corporate Clients managed</div>
             </div>
             
@@ -77,7 +77,7 @@ const Hero = () => {
               <div className="font-serif text-3xl font-bold text-accent mb-2">
             </div>
               <div className="font-sans text-sm text-cream/70">Expert Partners</div>
-              <div className="mt-3 text-xs text-cream/50 font-sans">Seasoned Banking Professionals</div>
+              <div className="mt-3 text-xs text-cream/50 font-sans">100+ Structured Debt </div>
             </div>
           </div>
         </div>
