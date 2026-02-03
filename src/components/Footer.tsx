@@ -5,7 +5,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8 mb-10">
           {/* Brand */}
           <div className="md:col-span-2">
-            <img src={logo} alt="Vaibhavam Capital Advisory" className="h-16 w-auto mb-4 brightness-0 invert opacity-100" />
+            <img src={logo} alt="Vaibhavam Capital Advisory" className="h-16 w-auto mb-4" />
             <p className="font-sans text-cream/70 text-sm leading-relaxed max-w-md">
               A boutique financial advisory firm specialising in debt syndication, 
               financial restructuring, and strategic capital solutions for businesses 
