@@ -1,4 +1,4 @@
-import { ArrowRight, TrendingUp, Shield, Target } from "lucide-react";
+import { ArrowRight, Target, Users, TrendingUp } from "lucide-react";
 const Hero = () => {
   return <section className="relative min-h-screen flex items-center bg-primary overflow-hidden">
       {/* Background Pattern */}
@@ -50,31 +50,32 @@ const Hero = () => {
             <div className="bg-card/10 backdrop-blur-sm rounded-xl p-6 border border-cream/10 animate-fade-in" style={{
             animationDelay: "0.2s"
           }}>
-              <TrendingUp className="w-10 h-10 text-accent mb-4" />
-              <div className="font-serif text-3xl font-bold text-cream mb-2">Deals Structured</div>
-              <div className="font-sans text-sm text-cream/70">Years of Expertise</div>
+              <Users className="w-10 h-10 text-accent mb-4" />
+              <div className="font-serif text-3xl font-bold text-cream mb-2">4 Expert Partners</div>
+              <div className="font-sans text-sm text-cream/70">seasoned banking professionals </div>
             </div>
             
             <div className="bg-card/10 backdrop-blur-sm rounded-xl p-6 border border-cream/10 animate-fade-in" style={{
             animationDelay: "0.3s"
           }}>
-              <Shield className="w-10 h-10 text-accent mb-4" />
-              <div className="font-serif text-3xl font-bold text-cream mb-2">₹5000Cr+</div>
-              <div className="font-sans text-sm text-cream/70">100+</div>
+              <TrendingUp className="w-10 h-10 text-accent mb-4" />
+              <div className="font-serif text-3xl font-bold text-cream mb-2">Business ₹10,000Cr+</div>
+              <div className="font-sans text-sm text-cream/70">Developed over the years</div>
             </div>
             
             <div className="bg-card/10 backdrop-blur-sm rounded-xl p-6 border border-cream/10 animate-fade-in" style={{
             animationDelay: "0.4s"
           }}>
               <Target className="w-10 h-10 text-accent mb-4" />
-              <div className="font-serif text-3xl font-bold text-cream mb-2">50+</div>
-              <div className="font-sans text-sm text-cream/70">Corporate Clients</div>
+              <div className="font-serif text-3xl font-bold text-cream mb-2">350+</div>
+              <div className="font-sans text-sm text-cream/70">SME/Mid/Large Corporate Clients managed</div>
             </div>
             
             <div className="bg-accent/20 backdrop-blur-sm rounded-xl p-6 border border-accent/30 animate-fade-in" style={{
             animationDelay: "0.5s"
           }}>
-              <div className="font-serif text-3xl font-bold text-accent mb-2">4</div>
+              <div className="font-serif text-3xl font-bold text-accent mb-2">
+            </div>
               <div className="font-sans text-sm text-cream/70">Expert Partners</div>
               <div className="mt-3 text-xs text-cream/50 font-sans">Seasoned Banking Professionals</div>
             </div>
