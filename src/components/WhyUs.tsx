@@ -40,13 +40,6 @@ const WhyUs = () => {
     }
   ];
 
-  const stats = [
-    { value: "95%", label: "Client Retention" },
-    { value: "30+", label: "Lender Network" },
-    { value: "45", label: "Avg. Days to Close" },
-    { value: "100%", label: "Confidentiality" }
-  ];
-
   return (
     <section id="why-us" className="py-20 bg-background">
       <div className="container mx-auto px-4">
@@ -64,7 +57,7 @@ const WhyUs = () => {
         </div>
 
         {/* Outcomes Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {outcomes.map((outcome, index) => (
             <div
               key={outcome.title}
@@ -86,31 +79,6 @@ const WhyUs = () => {
               </p>
             </div>
           ))}
-        </div>
-
-        {/* Stats Infographic */}
-        <div className="bg-gradient-to-br from-primary to-navy-light rounded-2xl p-8 md:p-12 animate-fade-in">
-          <h3 className="font-serif text-2xl font-bold text-primary-foreground text-center mb-10">
-            Our Track Record
-          </h3>
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
-            {stats.map((stat, index) => (
-              <div
-                key={stat.label}
-                className="text-center animate-scale-in"
-                style={{ animationDelay: `${0.15 * (index + 1)}s` }}
-              >
-                <div className="relative inline-block">
-                  <div className="w-24 h-24 md:w-28 md:h-28 rounded-full border-4 border-accent/30 flex items-center justify-center mx-auto mb-4 bg-accent/10">
-                    <span className="font-serif text-2xl md:text-3xl font-bold text-accent">
-                      {stat.value}
-                    </span>
-                  </div>
-                </div>
-                <p className="font-sans text-sm text-cream/80">{stat.label}</p>
-              </div>
-            ))}
-          </div>
         </div>
       </div>
     </section>
