@@ -1,4 +1,4 @@
-import { ArrowRight, Target, Users, TrendingUp } from "lucide-react";
+import { ArrowRight, Target, Users, TrendingUp, Briefcase } from "lucide-react";
 const Hero = () => {
   return <section className="relative min-h-screen flex items-center bg-primary overflow-hidden">
       {/* Background Pattern */}
@@ -74,10 +74,13 @@ const Hero = () => {
             <div className="bg-accent/20 backdrop-blur-sm rounded-xl p-6 border border-accent/30 animate-fade-in" style={{
             animationDelay: "0.5s"
           }}>
-              <Users className="w-10 h-10 text-accent mb-4" />
-              <div className="font-serif text-3xl font-bold text-accent mb-2">100+</div>
-              <div className="font-sans text-sm text-cream/70">Deals Structured</div>
-              <div className="mt-3 text-xs text-cream/50 font-sans">Expert Partners</div>
+              <Briefcase className="w-10 h-10 text-accent mb-4" />
+              <div className="font-serif text-3xl font-bold mb-2 text-stone-100">
+
+100+ Deals</div>
+              <div className="font-sans text-sm text-cream/70">Structured</div>
+              <div className="mt-3 text-xs text-cream/50 font-sans">
+            </div>
             </div>
           </div>
         </div>
