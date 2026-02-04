@@ -19,9 +19,11 @@ const Contact = () => {
             <h4 className="font-serif text-lg font-bold text-foreground mb-2">
               Address
             </h4>
-            <p className="font-sans text-muted-foreground text-sm leading-relaxed">15A, City Vista, 4th floor, Suite #1361 Fountain Road, Kharadi Pune 411014, Maharashtra, India<br />
-              Fountain Road, Kharadi<br />
-              Pune 411014, India
+            <p className="font-sans text-muted-foreground text-sm leading-relaxed">
+              15A, City Vista, 4th floor,<br />
+              Suite #1361, Fountain Road,<br />
+              Kharadi, Pune 411014,<br />
+              Maharashtra, India
             </p>
           </div>
 
