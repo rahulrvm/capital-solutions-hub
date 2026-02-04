@@ -23,11 +23,15 @@ const Hero = () => {
               <span className="text-sm font-sans text-cream">Boutique Financial Advisory</span>
             </div>
 
-            <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
+            <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4">
               Strategic Capital
               <span className="block text-accent">Solutions</span>
               <span className="block">for Growth</span>
             </h1>
+
+            <p className="font-serif text-xl md:text-2xl text-cream/90 italic mb-6">
+              "We design bankable capital structures and then place them."
+            </p>
 
             <p className="font-sans text-lg text-cream/80 max-w-xl mb-8 leading-relaxed">
               Customised liquidity, balance-sheet optimisation, and structured capital solutions 
