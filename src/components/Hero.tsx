@@ -33,10 +33,7 @@ const Hero = () => {
               "We design bankable capital structures and then place them."
             </p>
 
-            <p className="font-sans text-lg text-cream/80 max-w-xl mb-8 leading-relaxed">
-              Customised liquidity, balance-sheet optimisation, and structured capital solutions 
-              for corporates, SMEs, and infrastructure developers across India.
-            </p>
+            <p className="font-sans text-lg text-cream/80 max-w-xl mb-8 leading-relaxed">Customised liquidity, balance-sheet optimisation, and structured capital solutions for Corporates, SMEs and iMSMEs across India.</p>
 
             <div className="flex flex-col sm:flex-row gap-4">
               <a href="#services" className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-accent text-accent-foreground font-sans font-semibold rounded-md shadow-gold hover:shadow-elevated transition-all group">
