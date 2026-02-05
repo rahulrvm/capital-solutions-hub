@@ -16,7 +16,7 @@ www.vaibhavamcapital.in</p>
           <div>
             <h4 className="font-serif text-lg font-semibold text-cream mb-4">Quick Links</h4>
             <ul className="space-y-2">
-              {["About", "Services", "Why Us", "Contact"].map(link => <li key={link}>
+              {["Home", "About", "Services", "Why Us", "Contact"].map(link => <li key={link}>
                   <a href={`#${link.toLowerCase().replace(" ", "-")}`} className="font-sans text-sm text-cream/70 hover:text-accent transition-colors">
                     {link}
                   </a>
