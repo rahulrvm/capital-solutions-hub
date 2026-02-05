@@ -46,9 +46,10 @@ const Contact = () => {
             <h4 className="font-serif text-lg font-bold text-foreground mb-2">
               Email
             </h4>
-            <a href="mailto:rahulmodi@vaibhavamcapital.in" className="font-sans text-muted-foreground hover:text-accent transition-colors text-sm">
-              rahulmodi@vaibhavamcapital.in
-            </a>
+            <a href="mailto:rahulmodi@vaibhavamcapital.in" className="font-sans text-muted-foreground hover:text-accent transition-colors text-sm">rahulmodi@vaibhavamcapital.in
+
+
+          </a>
           </div>
         </div>
       </div>
