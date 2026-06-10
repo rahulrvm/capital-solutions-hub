@@ -18,8 +18,7 @@ const Contact = () => {
             </div>
             <h4 className="font-serif text-lg font-bold text-foreground mb-2">Offices</h4>
             <p className="font-sans text-muted-foreground text-sm leading-relaxed">
-              Pune  ·  Kolkata<br />
-              India
+              Pune · Kolkata
             </p>
           </div>
 

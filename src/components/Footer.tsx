@@ -6,7 +6,19 @@ const Footer = () => {
           {/* Brand */}
           <div className="md:col-span-2">
             <img src={logo} alt="Vaibhavam Capital Advisory" className="h-16 w-auto mb-4" />
-            <p className="font-sans text-cream/70 text-sm leading-relaxed max-w-md">A boutique financial advisory firm specialising in debt syndication, financial restructuring, and strategic capital solutions for businesses across India. www.vaibhavamcapital.in </p>
+            <p className="font-sans text-cream/70 text-sm leading-relaxed max-w-md whitespace-pre-line">
+              A boutique financial advisory firm specialising in debt syndication, financial restructuring, and strategic capital solutions for businesses across India.
+              {"\n\n\n"}
+              Registered off:
+              {"\n"}
+              Vaibhavam Capital Advisory LLP
+              {"\n"}
+              Awfis Space Solutions Ltd
+              {"\n"}
+              Seasons Mall, 2nd floor,
+              {"\n"}
+              Magarpatta, Pune 411028
+            </p>
           </div>
 
           {/* Quick Links */}
