@@ -116,7 +116,7 @@ const About = () => {
               <p className="font-sans text-xs uppercase tracking-widest text-accent mb-4">Co-Founder</p>
               <ul className="space-y-2 font-sans text-sm text-cream/80">
                 <li>• 22+ years in corporate banking, structured finance, and mid-market relationship management across Western & Eastern India</li>
-                <li>• Leadership roles at ING Vysya Bank, YES Bank, and RBL Bank — last role as SVP & Zonal Head (Maharashtra ex-Mumbai & Goa)</li>
+                <li>• Leadership roles at ING Vysya Bank, YES Bank, and RBL Bank — last role as SVP & Zonal Head Maharashtra (ex-Mum) & Goa</li>
                 <li>• Deep expertise in structured lending, capital raising, and large corporate relationships</li>
                 <li>• Track record across manufacturing, infrastructure, and real estate sectors</li>
               </ul>
