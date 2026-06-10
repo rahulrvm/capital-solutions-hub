@@ -16,14 +16,10 @@ const Contact = () => {
             <div className="p-3 bg-accent/10 rounded-lg w-fit mx-auto mb-4">
               <MapPin className="w-6 h-6 text-accent" />
             </div>
-            <h4 className="font-serif text-lg font-bold text-foreground mb-2">
-              Address
-            </h4>
+            <h4 className="font-serif text-lg font-bold text-foreground mb-2">Offices</h4>
             <p className="font-sans text-muted-foreground text-sm leading-relaxed">
-              15A, City Vista, 4th floor,<br />
-              Suite #1361, Fountain Road,<br />
-              Kharadi, Pune 411014,<br />
-              Maharashtra, India
+              Pune  ·  Kolkata<br />
+              India
             </p>
           </div>
 
@@ -31,11 +27,9 @@ const Contact = () => {
             <div className="p-3 bg-primary/10 rounded-lg w-fit mx-auto mb-4">
               <Phone className="w-6 h-6 text-primary" />
             </div>
-            <h4 className="font-serif text-lg font-bold text-foreground mb-2">
-              Phone
-            </h4>
-            <a href="tel:+918334003544" className="font-sans text-muted-foreground hover:text-accent transition-colors">
-              +91 8334 003 544
+            <h4 className="font-serif text-lg font-bold text-foreground mb-2">Website</h4>
+            <a href="https://www.vaibhavamcapital.in" className="font-sans text-muted-foreground hover:text-accent transition-colors text-sm">
+              www.vaibhavamcapital.in
             </a>
           </div>
 
@@ -43,13 +37,10 @@ const Contact = () => {
             <div className="p-3 bg-accent/10 rounded-lg w-fit mx-auto mb-4">
               <Mail className="w-6 h-6 text-accent" />
             </div>
-            <h4 className="font-serif text-lg font-bold text-foreground mb-2">
-              Email
-            </h4>
-            <a href="mailto:relationshipteam@vaibhavamcapital.in" className="font-sans text-muted-foreground hover:text-accent transition-colors text-sm">relationshipteam@vaibhavamcapital.in
-
-
-          </a>
+            <h4 className="font-serif text-lg font-bold text-foreground mb-2">Email</h4>
+            <a href="mailto:relationshipteam@vaibhavamcapital.in" className="font-sans text-muted-foreground hover:text-accent transition-colors text-sm">
+              relationshipteam@vaibhavamcapital.in
+            </a>
           </div>
         </div>
       </div>
