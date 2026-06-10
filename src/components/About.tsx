@@ -99,7 +99,7 @@ const About = () => {
         </div>
 
         {/* Leadership */}
-        <div className="bg-primary rounded-2xl p-8 md:p-12 animate-fade-in">
+        <div id="team" className="bg-primary rounded-2xl p-8 md:p-12 animate-fade-in scroll-mt-24">
           <div className="flex items-center gap-3 mb-8">
             <Users className="w-7 h-7 text-accent" />
             <h3 className="font-serif text-2xl font-bold text-primary-foreground">Leadership Team</h3>
