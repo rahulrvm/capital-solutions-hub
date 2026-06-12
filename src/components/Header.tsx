@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
+import { Download } from "lucide-react";
 import logo from "@/assets/logo.png";
+import profilePdf from "@/assets/Vaibhavam_Capital_Profile.pdf.asset.json";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -49,6 +51,18 @@ const Header = () => {
             </a>
           ))}
           <a
+            href={profilePdf.url}
+            download="Vaibhavam_Capital_Profile.pdf"
+            className={`inline-flex items-center gap-2 px-4 py-2 border font-sans text-sm font-medium rounded-md transition-all ${
+              isScrolled
+                ? "border-foreground/20 text-foreground hover:bg-foreground/5"
+                : "border-primary-foreground/40 text-primary-foreground hover:bg-primary-foreground/10"
+            }`}
+          >
+            <Download className="w-4 h-4" />
+            Profile
+          </a>
+          <a
             href="#contact"
             className="px-5 py-2.5 bg-accent text-accent-foreground font-sans text-sm font-semibold rounded-md shadow-gold hover:bg-gold-light transition-all"
           >
@@ -96,6 +110,15 @@ const Header = () => {
                 {link.label}
               </a>
             ))}
+            <a
+              href={profilePdf.url}
+              download="Vaibhavam_Capital_Profile.pdf"
+              className="inline-flex items-center justify-center gap-2 px-5 py-3 border border-foreground/20 text-foreground font-sans font-medium rounded-md text-center"
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
+              <Download className="w-4 h-4" />
+              Download Profile
+            </a>
             <a
               href="#contact"
               className="px-5 py-3 bg-accent text-accent-foreground font-sans font-semibold rounded-md text-center"
