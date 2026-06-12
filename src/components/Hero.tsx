@@ -33,7 +33,7 @@ const Hero = () => {
               <span className="block">Financing</span>
             </h1>
 
-            <p className="font-serif text-xl md:text-2xl text-cream/90 italic mb-6">
+            <p className="font-serif text-base sm:text-lg md:text-xl text-cream/90 italic mb-6 whitespace-nowrap">
               "Enabling Growth. Unlocking Capital. Building Scalable Businesses."
             </p>
 
