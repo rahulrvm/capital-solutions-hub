@@ -97,15 +97,6 @@ const Header = () => {
               </a>
             ))}
             <a
-              href={profilePdf.url}
-              download="Vaibhavam_Capital_Profile.pdf"
-              className="inline-flex items-center justify-center gap-2 px-5 py-3 border border-foreground/20 text-foreground font-sans font-medium rounded-md text-center"
-              onClick={() => setIsMobileMenuOpen(false)}
-            >
-              <Download className="w-4 h-4" />
-              Download Profile
-            </a>
-            <a
               href="#contact"
               className="px-5 py-3 bg-accent text-accent-foreground font-sans font-semibold rounded-md text-center"
               onClick={() => setIsMobileMenuOpen(false)}
